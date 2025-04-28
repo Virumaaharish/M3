@@ -42,7 +42,8 @@ return 0;
 }
 ```
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/b496e5d6-1524-474a-8fb5-376bd1fb7ccd)
+![image](https://github.com/user-attachments/assets/9450bc20-dc77-4d4e-b593-dcc8c4a33f7b)
+
 
 
 
@@ -89,7 +90,7 @@ return 0;
 }
 ```
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/b440552c-e049-487c-95a5-2d7a60e19420)
+![image](https://github.com/user-attachments/assets/ffa34edb-8eed-43dc-97a4-b34c9335a8aa)
 
 
 
@@ -135,7 +136,7 @@ return 0;
 ```
 ## OUTPUT
 
-![image](https://github.com/user-attachments/assets/c92ac163-88dd-4b0d-8030-f4248c98ab02)
+![image](https://github.com/user-attachments/assets/e79faa49-31ee-4fc5-915b-de309c8073aa)
 
 
 
@@ -164,26 +165,26 @@ To write a C Program to count total number of positive elements in an array.
 
 ## PROGRAM
 ```
-#include <stdio.h>
-int main() {
-int n, count = 0;
-printf("Enter the number of elements: ");
-scanf("%d", &n);
-int arr[n];
-printf("Enter %d elements:\n", n);
-for (int i = 0; i < n; i++) {
-scanf("%d", &arr[i]);
+#include<stdio.h>
+int main()
+{
+int n,i;
+scanf("%d",&n);
+int arr[n],count_pos=0,count_neg=0;
+for (i=0;i<n;i++)
+{
+scanf("%d",&arr[i]);
+if (arr[i]>0) count_pos++;
+else count_neg++;
 }
-for (int i = 0; i < n; i++) {
-if (arr[i] > 0) {
-count++;}
+printf("count of positive numbers in array: %d\n",count_pos);
+printf("count of negative numbers in array: %d",count_neg);
 }
-printf("Total number of positive elements: %d\n", count);
-return 0;
-}
+
 ```
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/0445db5f-da6a-4b7a-9a8d-8f6110da63cf)
+![image](https://github.com/user-attachments/assets/dbe9479a-1418-455c-ba5d-b3a84b58cee9)
+
 
 
 
@@ -248,8 +249,8 @@ return 0;
 }
 ```
 ## Output:
- 
-![image](https://github.com/user-attachments/assets/464299ce-5745-431e-bfb8-9f7892122f38)
+![image](https://github.com/user-attachments/assets/e076d1c9-7c79-47dd-ad32-ef0e337aecb8)
+
 
 
 ## Result:
