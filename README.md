@@ -1,6 +1,7 @@
-
-name:m.sahithi
 # EX-11-EMI-CALCULATOR
+
+NAME : VIRUMAA HARISH M
+REG: 212223230246
 
 ## AIM
 
